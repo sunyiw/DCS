@@ -215,7 +215,7 @@ int main (int argc, char** argv) {
     cout << "\tCreating Distributed Energy Resource\n";
     // ~ reference DistributedEnergyResource and BatteryEnergyStorageSystem
     BatteryEnergyStorageSystem* der_ptr 
-        = new BatteryEnergyStorageSystem(configs["BESS"]);
+        = new BatteryEnergyStorageSystem(configs);
 
     cout << "\tCreating Operator\n";
     // ~ reference Operator.h
