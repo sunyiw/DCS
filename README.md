@@ -92,12 +92,12 @@ Open two terminals run the random-test-server in one and the random-test-client 
 
 ``` console
 cd src/libmodbus/tests
-./random-test-server
+sudo ./random-test-server
 ```
 
 ``` console
 cd src/libmodbus/tests
-./random-test-client
+sudo ./random-test-client
 ```
 ### BOOST
 The boost libraries will be sued to create the XML property trees used for modbus querries. Follow the getting started to download and move the bost libraries into the ~/src directory with other libraries.
